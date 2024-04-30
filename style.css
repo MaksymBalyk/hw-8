@@ -1,0 +1,61 @@
+.lessons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lessons-container .day {
+    flex-basis: 18%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.lessons-container .day h2 {
+    margin-top: 0;
+}
+
+.lessons-container .day ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Стилі для псевдокласів стану */
+.day ul li:hover {
+    background-color: #f0f0f0;
+}
+
+.day ul li:active {
+    transform: translateY(2px);
+}
+
+.day ul li:focus {
+    outline: 2px solid blue;
+}
+
+.day ul li:checked {
+    text-decoration: line-through;
+}
+
+.day ul li:disabled {
+    opacity: 0.5;
+}
+
+/* Стилі для структурних псевдокласів */
+.day:first-of-type ul li {
+    border-top: 1px solid #ccc;
+}
+
+.day:last-of-type ul li {
+    border-bottom: 1px solid #ccc;
+}
+
+.day ul li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.day ul li:nth-child(3n) {
+    color: blue;
+}
+
+.day ul li:first-child {
+    font-weight: bold;
+}
