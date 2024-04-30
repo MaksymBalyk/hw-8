@@ -7,3 +7,9 @@ div :first-child{
 .yellow{
     color: yellow;
 }
+text-box > p{
+    color: red;
+}
+.text-box p:nth-last-child(2) {
+    color: green;
+}
