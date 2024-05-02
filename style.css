@@ -13,3 +13,18 @@
 .Friday {
     color: green;
 }
+li:hover {
+    color: tomato;
+}
+li:hover {
+    color: gray;
+}
+li:hover {
+    color: aquamarine;
+}
+li:hover {
+    color: thistle;
+}
+li:hover {
+    color: forestgreen;
+}
