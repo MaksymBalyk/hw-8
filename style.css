@@ -1,9 +1,10 @@
-div :first-child{
-    color:pink
+.Mondey ul>li:hover:hover {
+    color: tomato;
 }
-#greycol{
+.Tusday ul>li:hover {
     color: gray;
 }
+<<<<<<< HEAD
 .yellow{
     color: yellow;
 }
@@ -12,4 +13,14 @@ text-box div> p{
 }
 .text-box p:nth-last-child(2) {
     color: green;
+=======
+.Wenesday ul>li:hover {
+    color: aquamarine;
+}
+.Thursday ul>li:hover {
+    color: thistle;
+}
+.Friday ul>li:hover {
+    color: forestgreen;
+>>>>>>> a76d46141c42e42d77d60cfc7609baa025fdff3d
 }
