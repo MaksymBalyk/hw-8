@@ -1,19 +1,26 @@
-.Mondey ul>li:hover:hover {
+.Mondуy>ul>li:last-child {
+color: gold;
+}
+.Tusday>ul>li:first-child{
+    color: brown;
+}
+.Wenesday>ul>li:nth-child(2) {
+    color: blueviolet;
+}
+.Thursday>ul>li:nth-last-child(4) {
+    color: blue;
+}
+.Friday>ul>li:only-child {
+    color: fuchsia;
+}
+
+.Mondey ul>li:hover {
     color: tomato;
 }
 .Tusday ul>li:hover {
     color: gray;
 }
- HEAD
-.yellow{
-    color: yellow;
-}
-text-box div> p{
-    color: red;
-}
-.text-box p:nth-last-child(2) {
-    color: green;
-}
+
 .Wenesday ul>li:hover {
     color: aquamarine;
 }
@@ -21,5 +28,5 @@ text-box div> p{
     color: thistle;
 }
 .Friday ul>li:hover {
-    color: forestgreen;
+    color: khaki;
 }
