@@ -4,7 +4,7 @@
 .Tusday ul>li:hover {
     color: gray;
 }
-<<<<<<< HEAD
+ HEAD
 .yellow{
     color: yellow;
 }
@@ -13,7 +13,7 @@ text-box div> p{
 }
 .text-box p:nth-last-child(2) {
     color: green;
-=======
+}
 .Wenesday ul>li:hover {
     color: aquamarine;
 }
@@ -22,5 +22,4 @@ text-box div> p{
 }
 .Friday ul>li:hover {
     color: forestgreen;
->>>>>>> a76d46141c42e42d77d60cfc7609baa025fdff3d
 }
