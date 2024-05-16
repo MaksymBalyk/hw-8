@@ -1,4 +1,4 @@
-.Mondуy>ul>li:last-child {
+.Mondey>ul>li:last-child {
 color: gold;
 }
 .Tusday>ul>li:first-child{
@@ -10,7 +10,7 @@ color: gold;
 .Thursday>ul>li:nth-last-child(4) {
     color: blue;
 }
-.Friday>ul>li:only-child {
+.Friday>ul>li:nth-child(3) {
     color: fuchsia;
 }
 
